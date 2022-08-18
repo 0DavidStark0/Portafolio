@@ -21,7 +21,7 @@ html{
   /* background-image: url(/img/headerPortfolio2.jpg); */
   background-image: url(/img/headerPortfolio1.jpg);
   background-size: cover;
-  animation: fadeIn 3s ease;
+  /* animation: fadeIn 3s ease;*/
   background-blend-mode: darken;
 }
 @keyframes fadeIn{
