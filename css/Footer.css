@@ -1,0 +1,40 @@
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+    bottom: 0;
+}
+
+footer a{
+    text-decoration: none;
+    border-radius: 3px;
+    color: aliceblue;
+}
+footer a:hover{
+    color:  rgb(94, 35, 154);
+}
+/* --- ICONOS DE REDES */
+.div-icon-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0;
+}
+.icon-footer-item{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 20px;
+}
+.icon-footer-item:hover{
+    transform: scale(1.2);
+}
+.copy{
+    font-size: 10px;
+    text-align: center;
+    color: aliceblue;
+    margin: 20px 0;
+}

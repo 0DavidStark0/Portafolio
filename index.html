@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/56c57334e0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="icon" href="img/wolf-logo.png">
+
+  <title>Andrés Lopéz - Portfolio</title>
+</head>
+<body id="body">
+  <header>
+    <!-- ------------seccion menu de navegacion------------------------------- -->
+    <nav id="navPrincipal">
+      <div class="nav__logo">
+        <a href="">
+          <img class="nav__img" src="img/wolf-logo.png" alt="">
+        </a>
+        <a class="nav__link nav__nombre" href="#">ANDRES LOPEZ</a>
+      </div>
+      <div class="icon-nav" onclick="responsiveMenu()" >
+        <i class="fa-solid fa-bars" id="menuResponsive"></i>
+      </div>
+      <div id="backMenu"></div>
+      <div class="nav" id="nav">
+        <ul  class="nav__ul">
+          <li><img src="img/wolf-logo.png" alt=""></li>
+          <!-- <li class="nav__boton"><a class="nav__link" href="#navPrincipal">Home</a></li> -->
+          <li class="nav__boton"><a class="nav__link" href="#aboutMe">Sobre Mi</a></li>
+          <li class="nav__boton"><a class="nav__link" href="#habilidades">Habilidades</a></li>
+          <li class="nav__boton"><a class="nav__link" href="#estudios">Estudios</a></li>
+          <li class="nav__boton"><a class="nav__link" href="#repos">Repositorios</a></li>
+          <li class="nav__boton"><a class="nav__link nav__link--contact" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      
+    </nav>
+
+    <!-- -------------Seccion de presentacion------------------------------------ -->
+    <div class="contPresentacion">
+      <div class="contPresentacion__presentacion">
+        <div class="divPresentacion">
+          <span class="contPresentacion__span">
+            <span class="spanHello">¡Hola! Mi nombre es</span><br>
+            <span class="spanName typed"></span><br>
+            <span class="spanI">Soy </span><span class="spanDev">Desarrollador Web</span> <br>
+            <div class="iconsContact">
+              <a href="https://github.com/0DavidStark0" target="_blank"><img src="img/github.svg" alt=""></a>
+              <a href="https://co.linkedin.com/" target="_blank"><img src="img/linkedin.svg" alt=""></a>
+              <a href="" target="_blank"><img src="img/message.svg" alt=""></a>
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="">
+    <!-- ------------Seccion About Me------------------------------------------- -->
+    <section id="aboutMe" class="contAboutMe">
+      <div class="cont__aboutMeFoto">
+        <img class="aboutMeFoto animate__animated animate__bounce wow" src="img/fotoMe.png" alt="">
+      </div>
+      <div class="infoAboutMe">
+        <h2>¡Hola! Soy <span class="nameAboutMe">Andrés López</span></h2><br>
+        <p>Soy estudiante de Ingenieria de software en camino a ser uno de los mejores, en busca de experiencias nuevas y enriquecedoras. Constantemente en formación, con animo de ganar experiencia. </p>
+        <div class="contBotonRepos">
+          <a class="botonRepos" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span> Mi CV ⤓
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="habilidades" class="habilidades">
+      <h2>Mis Habilidades</h2>
+      <div class="contHabilidades">
+        <div></div>
+        <div class="habTecnicas">
+          <div class="habTecnicas__sec">
+            <img src="img/JavaScript.png" alt="">
+          </div>
+          <div class="habTecnicas__sec">
+            <img src="img/CSS.png" alt="">
+          </div>
+          <div class="habTecnicas__sec">
+            <img src="img/HTML.png" alt="">
+          </div>
+          <div class="habTecnicas__sec">
+            <img src="img/SQL.png" alt="">
+          </div>
+          <div class="habTecnicas__sec">
+            <img src="img/Java.png" alt="">
+          </div>
+          <div class="habTecnicas__sec">
+            <img src="img/GIThub.png" alt="">
+          </div>
+          <div class="habTecnicas__sec">
+            <img src="img/Bootstrap.png" alt="">
+          </div>
+        </div>
+        <div class="habBlandas">
+          <p>Me considero una persona con gran capacidad de adaptacion y gestion de cambio, paciente, productivo y con Inteligencia emocional.</p>
+        </div>
+        <div></div>
+      </div>
+    </section><!-- <hr class="sepHabRep"> -->
+    <!-- ------------Seccion de estudios------------------------------------ -->
+    <section id="estudios" class="estudios">
+      <h2>Mis Estudios</h2>
+      <div class="contEstudios">
+        <div class="contEstudios__section">
+          <div class="orderEstudios">
+            <div class="estudIcon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div>
+              <h4>Bachiller Técnico en asistensia administrativa</h4>
+              <p>Colegio ciudad de cali - Bogota</p>
+              <p>SENA - Centro de servicios financieros</p>
+              <p><b>2016</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="contEstudios__section">
+          <div class="orderEstudios">
+            <div class="estudIcon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div>
+              <h4>Tecnica profesional en analisis y desarrollo de bases de datos</h4>
+              <p>Fundacion universitaria Compensar</p>
+              <p><b>2020</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="contEstudios__section">
+          <div class="orderEstudios">
+            <div class="estudIcon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div>
+              <h4>Procesos de soporte tecnico para el mantenimiento de equipos de computo</h4>
+              <p>Complementaria virtual</p>
+              <p>SENA - Centro de la industria, la empresa y los servicios</p>
+              <p><b>2021</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="contEstudios__section">
+          <div class="orderEstudios">
+            <div class="estudIcon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div>
+              <h4>CO Diseño Web con HTML5 + CSS - FT Ed 4</h4>
+              <p>Curso virtual</p>
+              <p>Fundacion Telefonica - Programa de formacion virtual Conecta Empleo</p>
+              <p><b>2021</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="contEstudios__section">
+          <div class="orderEstudios">
+            <div class="estudIcon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div>
+              <h4>Diseño y desarrollo de Frond-End con Html, Css y JavaScript</h4>
+              <p>Curso especial</p>
+              <p>SENA - Centro para la industria de la comunicacion grafica</p>
+              <p><b>2022</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="contEstudios__section">
+          <div class="orderEstudios">
+            <div class="estudIcon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div>
+              <h4>GL Programación con JavaScript - FT Ed 7</h4>
+              <p>Curso virtual</p>
+              <p>Fundacion Telefonica - Programa de formacion virtual Conecta Empleo</p>
+              <p><b>2022</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="contEstudios__section">
+          <div class="orderEstudios">
+            <div class="estudIcon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div>
+              <h4>Analisis y desarrollo de software</h4>
+              <p>Tecnologo</p>
+              <p>SENA - Centro de electricidad, electronica y telecomunicaciones</p>
+              <p><b>2022 - 2024</b></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- ------------Seccion de repositorios------------------------------------ -->
+    <section id="repos" class="repos">
+      <h2>Repositorios</h2>
+      <div class="contenedorCards">
+        <div class="card card1 animate__animated animate__bounce wow">
+          <a href="https://0davidstark0.github.io/SENA-Semantica-MediaQueries-Turn.js-Animate.css-Wow.js/">
+            <img src="img/Sena-semantica.png" alt="">
+          </a>
+        </div>
+        <div class="card card1 animate__animated animate__bounce wow">
+          <a href="https://0davidstark0.github.io/SENA-guiaMaquetacionPrototipos/">
+            <img src="img/GuiaMaqPrototipos.png" alt="">
+          </a>
+        </div>
+        <div class="card card1 animate__animated animate__bounce wow">
+          <a href="https://0davidstark0.github.io/SENA-pseudoClases/">
+            <img src="img/PseudoClases.png" alt="">
+          </a>
+        </div>
+        <div class="card card1 animate__animated animate__bounce wow">
+          <a href="https://0davidstark0.github.io/TzuzulCode-Proyecto2_FrontEnd/">
+            <img src="img/tzuzulCode-proyect2.png" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="contBotonRepos">
+        <a class="botonRepos" href="https://github.com/0DavidStark0?tab=repositories" target="_blank">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span> Más
+        </a>
+      </div>
+    </section>
+    <div class="ok">
+      <p>Te agradesco el tiempo que tomaste para ver mi portafolio. Espero pronto podamos trabajar juntos.</p>
+    </div>
+    <!-- -------------Seccion Formulario  de contacto---------------------------- -->
+    <section id="contact" class="contact">
+      <div class="contContact">
+        <form class="contactForm" action="">
+          <label class="titleContact">Contactame</label>
+          <div class="form__group field">
+            <input required="" placeholder="Name" class="form__field" type="text">
+            <label class="form__label" for="name">Nombre</label>
+          </div>
+          <div class="form__group field">
+            <input required="" placeholder="Email" class="form__field" type="email">
+            <label class="form__label" for="email">Correo</label>
+          </div>
+          <div class="form__group field">
+            <textarea class="formTextArea  form__field" placeholder="Message" rows="5"></textarea>
+            <label class="form__label" for="message">Mensaje</label>
+          </div>
+          <div class="formBoton">
+            <button class="botonContact">
+              <div class="svg-wrapper-1">
+                <div class="svg-wrapper">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                  </svg>
+                </div>
+              </div>
+              <span>Enviar</span>
+            </button>
+          </div>
+        </form>
+        <div class="ubi"><p><i class="fa-solid fa-location-dot"></i> Ubicación <i class="fa-solid fa-arrow-right-long"></i>  Bogóta - Colombia </p></div>
+      </div>
+    </section><hr>
+  </main>
+
+  <!-- ---------------seccion de footer------------------------------------- -->
+  <footer class="footer">
+
+    <div class="div-icon-footer">
+      <ul class="icon-footer">
+        <li class="icon-footer-item">
+          <a href="https://github.com/0DavidStark0" class="GitHub" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+        </li>
+        <li class="icon-footer-item">
+          <a href="https://co.linkedin.com/" class="linkedIn" target="_blank">
+            <i class="fa-brands fa-linkedin"></i> Linked in
+          </a>
+        </li>
+        <li class="icon-footer-item">
+          <a href="mailto:@gmail.com" class="mail">
+            <i class="far fa-envelope"></i> EMail
+          </a>
+        </li>
+      </ul>
+    </div>
+    <hr>
+    <div class="copy"><p>@CopyRigth - Todos los derechos reservados 2022</p></div>
+    
+</footer>
+  <!-- * type.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="js/main.js"></script>
+  <script src="js/wow.min.js"></script>
+              <script> new WOW().init(); </script>
+</body>
+</html>
