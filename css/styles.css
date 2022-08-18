@@ -21,10 +21,10 @@ html{
   /* background-image: url(/img/headerPortfolio2.jpg); */
   background-image: url(/img/headerPortfolio1.jpg);
   background-size: cover;
-  /* animation: fadeIn 3s ease;*/
-  background-blend-mode: darken;
+  /* animation: fadeIn 3s ease;
+  background-blend-mode: darken;*/
 }
-@keyframes fadeIn{
+/*@keyframes fadeIn{
   0%{
     opacity: 0;
     filter: blur(20px);
@@ -33,7 +33,7 @@ html{
     opacity: 1;
     filter: brightness(2) blur(10px);
   }
-}
+}*/
 
 .contPresentacion__presentacion {
   display: flex;
